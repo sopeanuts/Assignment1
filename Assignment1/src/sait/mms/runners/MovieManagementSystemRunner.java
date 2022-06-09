@@ -23,7 +23,7 @@ public class MovieManagementSystemRunner {
 		/*
 		 * Loads movies from the supplied text file.
 		 */
-		//mms.loadMovies();
+		mms.loadMovies();
 		//
 		
 		System.out.println("===========================");

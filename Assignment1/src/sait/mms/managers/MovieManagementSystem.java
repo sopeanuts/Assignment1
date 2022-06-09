@@ -3,18 +3,18 @@ import java.util.*;
 import sait.mms.problemdomain.Movie;
 
 public class MovieManagementSystem {
-	private java.util.Scanner keyboard;
-	private java.util.ArrayList<Movie> movies;
+	private Scanner keyboard;
+	private ArrayList<Movie> movies;
 	public static final String DIR_PATH = "res/movies.txt";
 
 	public MovieManagementSystem()
 			throws java.io.FileNotFoundException {
 	}
 
-	public void addMovie​(int duration, java.lang.String title, int year) {
-		duration = keyboard.nextInt();
-		title = keyboard.nextLine();
-		year = keyboard.nextInt();
+	public void addMovie​(int duration, String title, int year) {
+		ArrayList<Movie> movies;
+		String addMovie = keyboard.next();
+		movies.add(addMovie);
 	}
 
 	public void displayMenu() {
