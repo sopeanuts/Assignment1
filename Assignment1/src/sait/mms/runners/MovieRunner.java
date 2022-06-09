@@ -22,7 +22,7 @@ public class MovieRunner {
 		String title = "Tron: Legacy";
 		int year = 2010;
 		
-		Movie Movie = new Movie(duration, title, year);
+		Movie movie = new Movie(duration, title, year);
 		//
 		System.out.println("===========================");
 		System.out.println();
