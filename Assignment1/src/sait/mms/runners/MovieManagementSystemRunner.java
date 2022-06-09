@@ -14,7 +14,7 @@ import sait.mms.managers.*;
 public class MovieManagementSystemRunner {
 	public static void main(String[] args) throws IOException {
 		System.out.println("Create MovieManagementSystem object:");
-		//MovieManagementSystem mms = new MovieManagementSystem();
+		MovieManagementSystem mms = new MovieManagementSystem();
 		
 		System.out.println("===========================");
 		System.out.println();
