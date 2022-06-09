@@ -9,11 +9,11 @@ public class Movie {
     public Movie(int duration, String title, int year) {
 
     }
-    public String formatForFile() {
-
+    public String formatForFile(int duration, String title, int year) {
+		return toString();
     }
     public int getDuration() {
-        return duration;
+    	return duration;
     }
 
     public String getTitle() {
@@ -26,7 +26,7 @@ public class Movie {
 
     @Override
     public String toString() {
-
+		return toString();
     }
 
 }

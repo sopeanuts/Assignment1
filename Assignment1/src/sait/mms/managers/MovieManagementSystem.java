@@ -1,5 +1,7 @@
 package sait.mms.managers;
-
+private java.util.Scanner
+private java.util.ArrayList<Movie>
+static java.lang.String
 public class MovieManagementSystem {
 	
 	public MovieManagementSystem()
