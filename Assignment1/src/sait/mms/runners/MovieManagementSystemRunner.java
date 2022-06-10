@@ -38,7 +38,7 @@ public class MovieManagementSystemRunner {
 		String title1 = "The Fast and the Furious";
 		int year1 = 2001;
 		
-		mms.addMovie(duration1, title1, year1);
+		//mms.addMovie(duration1, title1, year1);
 		//
 		
 		System.out.println("===========================");

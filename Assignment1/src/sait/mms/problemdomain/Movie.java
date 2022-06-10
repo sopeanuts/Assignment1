@@ -11,7 +11,7 @@ public class Movie {
         this.year = year;
     }
 
-    public String formatForFile(int duration, String title, int year) {
+    public String formatForFile() {
 
         return title;
     }

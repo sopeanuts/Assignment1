@@ -50,7 +50,7 @@ public class MovieRunner {
 		
 		System.out.println("Call movie.formatForFile():");
 		// Expected output: 125,Tron: Legacy,2010
-		System.out.println(movie.formatForFile(duration, title, year));
+		System.out.println(movie.formatForFile());
 		//
 		System.out.println("===========================");
 		System.out.println();
